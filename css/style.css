@@ -3,6 +3,18 @@ body{
     background: #000;
     color: #FFF;
 }
+
+div{
+    height:100px;
+    padding: 20px;
+    border: 3px solid #FFF
+}
+
+footer{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,255,1) 25%, rgba(0,102,255,1) 70%, rgba(0,0,0,1) 100%);
+}
+
 h1{
     font-size:48px;
     text-align:center;
@@ -24,22 +36,12 @@ img{
     border: 10px dashed #FFF;
 }
 
-div{
-    height:100px;
-    padding: 20px;
-    border: 3px solid #FFF
-}
-
 span{
     text-decoration: underline;
     text-transform: uppercase;
     text-shadow: None;
 }
 
-footer{
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,255,1) 25%, rgba(0,102,255,1) 70%, rgba(0,0,0,1) 100%);
-}
 
 footer p{
     text-align: center;
@@ -76,9 +78,6 @@ footer p{
     border-left:10px solid #FFF;
     color: #000; 
 }
-.yellow h2{
-    text-shadow: 2px 4px #C7E2C7
-}
 
 .green{
     background: #00eb00;
@@ -86,4 +85,8 @@ footer p{
     margin-right: 50px;
     border-right: 10px solid #FFF;
     border-bottom: 3px solid #FFF;
+}
+
+.yellow h2{
+    text-shadow: 2px 4px #C7E2C7
 }
