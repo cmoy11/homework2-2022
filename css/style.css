@@ -1,18 +1,22 @@
 body{
-    font-family: Verdana, "Times New Roman";
-    background: #000;
-    color: #FFF;
+    font-family: "Verdana", "Times New Roman";
+    background: #000000;
+    color: #FFFFFF;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left:25px;
 }
 
 div{
     min-height:100px;
     padding: 20px;
-    border: 3px solid #FFF
+    border: 3px solid #FFFFFF;
 }
 
 footer{
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,255,1) 25%, rgba(0,102,255,1) 70%, rgba(0,0,0,1) 100%);
+    text-align: center;
 }
 
 h1{
@@ -23,7 +27,7 @@ h1{
 
 h2{
    font-size: 32px;
-   text-shadow: 4px 2px #808080;  
+   text-shadow: 2px 4px #808080;  
 }
 
 p{
@@ -36,17 +40,16 @@ img{
     width:350px;
     display:block;
     margin:0 auto;
-    border: 10px dashed #FFF;
+    border: 10px dashed #FFFFFF;
 }
 
 span{
     text-decoration: underline;
     text-transform: uppercase;
-    text-shadow: None;
+    text-shadow: none;
 }
 
 footer p{
-    text-align: center;
     font-size: 20px;
     padding: 10px 10px 10px 0;
 }
@@ -57,36 +60,44 @@ footer p{
 }
 
 .red{
-    background: #F00;
+    background: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom:3px solid #FFF;
-    border-left:10px solid #FFF;
+    border-bottom:3px solid #FFFFFF;
+    border-left:10px solid #FFFFFF;
+    border-top: none;
+    border-right:none;
 }
 
 .blue{
-    background: #00F;
+    background: #0000FF;
     text-align: left;
     margin-right:50px;
-    border-right:10px solid #FFF;
-    border-bottom:3px solid #FFF;
+    border-right:10px solid #FFFFFF;
+    border-bottom:3px solid #FFFFFF;
+    border-top: none;
+    border-left: none;
 }
 
 .yellow{
-    background: #FF0;
+    background: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-bottom:3px solid #FFF;
-    border-left:10px solid #FFF;
-    color: #000; 
+    border-bottom:3px solid #FFFFFF;
+    border-left:10px solid #FFFFFF;
+    border-top: none;
+    border-right: none;
+    color: #000000; 
 }
 
 .green{
-    background: #00eb00;
+    background: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 10px solid #FFF;
-    border-bottom: 3px solid #FFF;
+    border-right: 10px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
+    border-top: none;
+    border-left: none;
 }
 
 .yellow h2{
